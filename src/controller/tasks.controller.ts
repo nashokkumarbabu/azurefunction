@@ -9,6 +9,7 @@ export class TasksController {
     }
 
     public async listTasks() {
+        console.log("added one console");
         return await this.tasksService.listTasks();
     }
 
